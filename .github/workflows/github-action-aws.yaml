@@ -29,9 +29,9 @@ jobs:
           export NVM_DIR=~/.nvm
           source ~/.nvm/nvm.sh
           ls /home/ubuntu
-          cd /home/ubuntu/github-aws-node
+          cd /home/ubuntu/githubaction-vm-aws
           git stash
-          git pull origin main
+          git pull origin master
           npm install
           pm2 restart app.js
               
